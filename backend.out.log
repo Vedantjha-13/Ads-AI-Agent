@@ -1,0 +1,7 @@
+INFO:     127.0.0.1:63850 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60941 - "GET /apify-status HTTP/1.1" 200 OK
+GENERATE_AD REQUEST BODY: {'product_url': 'https://crowdwisdomtrading.com', 'niche': 'trading research and market signals', 'days': 30, 'limit': 5, 'force_mock': False}
+APIFY ACTOR INPUT: {'queries': 'trading research and market signals', 'maxPagesPerQuery': 1, 'resultsPerPage': 5}
+APIFY RESPONSE ITEMS: 1
+INFO:     127.0.0.1:56276 - "POST /generate-ad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53298 - "GET /health HTTP/1.1" 200 OK
